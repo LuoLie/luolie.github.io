@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>LuoLie&#39;s blog</title>
+  <title>hexo我的博客 | LuoLie&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="It is my work, life and study.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LuoLie's blog">
-<meta property="og:url" content="http://www.luolie.com/archives/2015/index.html">
+  <meta name="description" content="欢迎来到我的个人博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo我的博客">
+<meta property="og:url" content="http://www.luolie.com/2015/03/28/hexo我的博客/index.html">
 <meta property="og:site_name" content="LuoLie's blog">
-<meta property="og:description" content="It is my work, life and study.">
+<meta property="og:description" content="欢迎来到我的个人博客">
+<meta property="og:image" content="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg">
+<meta property="og:image" content="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LuoLie's blog">
-<meta name="twitter:description" content="It is my work, life and study.">
+<meta name="twitter:title" content="hexo我的博客">
+<meta name="twitter:description" content="欢迎来到我的个人博客">
   
     <link rel="alternative" href="/atom.xml" title="LuoLie&#39;s blog" type="application/atom+xml">
   
@@ -490,82 +492,103 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-hexo我的博客" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/28/hexo我的博客/" class="archive-article-date">
-  	<time datetime="2015-03-28T02:57:22.000Z" itemprop="datePublished">3月 28</time>
+    <div class="article-meta">
+      <a href="/2015/03/28/hexo我的博客/" class="article-date">
+  	<time datetime="2015-03-28T02:57:22.000Z" itemprop="datePublished">2015-03-28</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/28/hexo我的博客/">hexo我的博客</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      hexo我的博客
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-github-blog/">hexo github blog</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
+      </div>
+      
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/23/hello-world/" class="archive-article-date">
-  	<time datetime="2015-03-23T06:30:54.000Z" itemprop="datePublished">3月 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/23/hello-world/">Hello World</a>
-    </h1>
-  
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>欢迎来到我的个人博客<br><a id="more"></a><br>经过为期5天的不懈努力（P.S.时间用的有点久，因为处女座，你懂得，尝试了各种主题以及对主题的修改），<br>我的个人博客终于搭建起来了。<br>之前从来没有接触过这种前端的东西，一直致力于嵌入式软件系统的开发，在接触到git之后，发现利用github的<br>github page可以用来搭建自己的个人网站，于是乎，果断的按照网上的各种教程依葫芦画瓢的搭建起了这个个人博客，<br>初期在安装的过程中也遇到一个恼人的问题，导致折腾了一天，在安装好git和nodejs之后，下一步是安装hexo，在输入npm<br>install -g hexo之后会在全局环境装上hexo，然后执行hexo init初始化博客工作区，npm install在工作区目录下加载所需要<br>的node module，执行hexo generate，生成静态文件，然后输入hexo server开启本地服务，在浏览器输入localhost：4000<br>就可以正常访问博客页面了，但是接下来就有一个问题，在_config.yml配置文件中，配置好自己的git仓库之后，<br>执行hexo deploy一直提示<br> not found git.就在这个问题上折腾了一整天，查看各种博客都没有关于这个问题的回答<br> 最后通过查看官网hexo.io才发现需要在工作区目录下执行<br> npm install hexo-deployer-git —save,安装上这个模块之后就可以正常的执行代码的deployer了。</p>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag/">tag</a></li></ul>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/03/23/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="hexo我的博客" data-title="hexo我的博客" data-url="http://www.luolie.com/2015/03/28/hexo我的博客/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
 </div>
       <footer id="footer">
   <div class="outer">
